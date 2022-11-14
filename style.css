@@ -1,0 +1,176 @@
+/* * {
+    border: solid; 
+    border-color: red;
+    border-radius: 1px; 
+} */
+ 
+
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.full-sign-in {
+    border: solid;
+    border-color: lightgray;
+    border-width: 1.5px;
+    border-radius: 3px;
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    height: 258px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+
+.box-sign-in {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+
+.text-sign-in {
+    margin-bottom: 8px;
+    font-size: 9px;
+    color: rgb(83, 82, 82);
+}
+
+
+#password {
+    margin-left: 30px;
+}
+
+
+input {
+    font-size: 11px;
+    width: 93%;
+    height: 18px;
+}
+
+
+.input-sign-in-password {
+    margin-top: 15px;
+}
+
+
+.button-continue {
+    margin-top: 18px;
+    width: 95%;
+    height: 25px;
+    font-size: 10px;
+    font-weight: 300px;
+    background-color: rgba(241, 170, 14, 0.74);
+    border: solid;
+    border-color: rgba(119, 94, 41, 0.205);
+    border-width: 1.8px;
+    border-radius: 2.8px;
+}
+
+
+.link-sign-in {
+    text-decoration: none;
+    margin-left: 170px;
+    font-size: 11px;
+}
+
+
+.help {
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+.link-need-help, .link-info {
+    text-decoration: none;
+}
+
+
+.help-link {
+    padding-top: 20px;
+}
+
+
+
+.h2-lines {
+    font-size: 9px;
+    font-weight: 100;
+    color: rgb(151, 145, 145);
+    position: center;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+
+.h2-lines:before {
+    content:" ";
+    display: inline-block;
+    flex-direction: row;
+    height: 0.5px;
+    width: 115px;
+    position: relative;
+    right: 2%;
+    bottom: 8%;
+    background: rgb(117, 113, 113);
+}
+
+
+.h2-lines:after {
+    content:" ";
+    display: block;
+    flex-direction: row;
+    height: 0.5px;
+    width: 115px;
+    position: relative;
+    left: 53.5%;
+    bottom: 51%;
+    background: rgb(117, 113, 113);
+}
+
+
+.h2-lines::after {
+    content: " ";
+    display: inline-block;
+    flex-direction: row;
+    position: relative;
+    background: rgb(117, 113, 113);
+    left: 2%;
+    bottom: 90%;
+}
+
+
+
+button {
+    width: 333px;
+    font-size: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    font-size: 8.5px;
+    justify-content: space-around;
+    width: 110%;
+    margin-right: 35px;
+}
+
+
+.copywright {
+    font-size: 8.5px;
+    padding-left: 35px;
+    margin-top: 20px;
+} 
+
+
+hr {
+    margin: 30px 0 30px 0;
+    border-top: 1.3px solid grey;
+    border-bottom: none;
+    width: 100%;
+}
